@@ -14,8 +14,8 @@ const Services = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         {features.map((feature, index) => (
-          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4">
-            <div className="flex items-start bg-white shadow-lg rounded-lg p-6 mb-8 transition-transform transform hover:scale-105">
+          <div key={index} className="w-full sm:w-1/2 lg:w-1/3 px-4 mx-8">
+            <div className="flex items-start bg-white shadow-lg rounded-lg p-6 mb-8 transition-transform duration-500 transform hover:scale-105">
               <div className="flex-shrink-0 h-12 w-12 p-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white flex justify-center items-center rounded-full">
                 {feature.icon}
               </div>

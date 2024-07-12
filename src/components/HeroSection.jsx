@@ -39,13 +39,16 @@ const HeroSection = () => {
             {" "}Underprivileged Students
           </span>
         </h1>
+        <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+          Your complete education consultant to the United States
+          </p>
         <TypeAnimation
           sequence={[
-            "Choose schools",
+            "Get Scholarships",
             1000,
-            "Ace prep",
+            "Obtain Visas",
             1000,
-            "Get admitted",
+            "Get Admitted",
             1000
           ]}
           wrapper="h2"
@@ -53,9 +56,7 @@ const HeroSection = () => {
           className="text-2xl sm:text-3xl lg:text-4xl text-gray-600 font-medium mb-8"
           repeat={Infinity}
         />
-        <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-          We will be your complete guide to your educational destination. From college admission to scholarships and visa applications, we provide the support and results you need.
-        </p>
+        
         <div className="flex justify-center">
           <video 
             src='./src/assets/nyflag.mp4'
@@ -65,6 +66,7 @@ const HeroSection = () => {
             Your Browser does not support the video tag
           </video>
         </div>
+
       </div>
     </div>
   );

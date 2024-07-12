@@ -13,7 +13,7 @@ const NavBar = () => {
 
 
   return (
-    <nav className="bg-[#fafaf7] sticky top-0 z-50 py-3 backdrop-blur-lg ">
+    <nav className="bg-[#f9fafb] sticky top-0 z-50 py-3 backdrop-blur-lg ">
       <div className="container px-4 mx-auto relative text-sm">
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
@@ -25,7 +25,7 @@ const NavBar = () => {
             {navItems.map((item, index) => (
               <li key={index}>
                 <a
-                  className="hover:underline relative"
+                  className="hover:underline relative "
                   href={item.href}
                 >
                   {item.label}
@@ -35,7 +35,7 @@ const NavBar = () => {
           </ul>
 
           <div className="hidden md:flex justify-center space-x-12 items-center">
-            <a className="bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-3 hover:from-green-500 hover:to-blue-700 rounded-md">
+            <a className="bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-3 hover:from-green-500 hover:to-blue-700 rounded-md transition-transform duration-500 transform hover:scale-105">
               Talk with us
             </a>
           </div>
