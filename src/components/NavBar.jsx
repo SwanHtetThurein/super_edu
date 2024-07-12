@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import logo from "../assets/logo.png";
 import { navItems } from "../constants";
+import { scrollTo } from '../features/Scroll';
 
 const NavBar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -9,6 +10,7 @@ const NavBar = () => {
   const toggleNavbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
+
 
   return (
     <nav className="bg-[#fafaf7] sticky top-0 z-50 py-3 backdrop-blur-lg ">

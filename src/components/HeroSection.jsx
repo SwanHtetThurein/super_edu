@@ -3,13 +3,40 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="bg-hero">
-      <div id="#" className="flex flex-col items-center mt-0 py-16">
-        <h1 className="mt-8 lg:mt-15 font-medium text-3xl px-10 sm:text-4xl lg:text-5xl text-center tracking-wide">
+    <div className="relative overflow-hidden">
+      <div className="absolute inset-0 z-[-1]">
+        <svg
+          width="1440"
+          height="886"
+          viewBox="0 0 1440 886"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            opacity="0.4"
+            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+            fill="url(#paint0_linear)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="1308.65"
+              y1="1142.58"
+              x2="602.827"
+              y2="-418.681"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stopColor="#3056D3" stopOpacity="0.2" />
+              <stop offset="1" stopColor="#F5F2FD" stopOpacity="0" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen py-16 px-4 text-center">
+        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-800 mb-4">
           College Applications for
           <span className="bg-gradient-to-r from-cyan-500 to-blue-600 text-transparent bg-clip-text">
-            {" "}
-            Underprivileged Students
+            {" "}Underprivileged Students
           </span>
         </h1>
         <TypeAnimation
@@ -21,20 +48,20 @@ const HeroSection = () => {
             "Get admitted",
             1000
           ]}
-          wrapper="h1"
-          speed={20}
-          className="mt-8 text-3xl sm:text-4xl lg:text-5xl text-center tracking-wide"
+          wrapper="h2"
+          speed={30}
+          className="text-2xl sm:text-3xl lg:text-4xl text-gray-600 font-medium mb-8"
           repeat={Infinity}
         />
-        <p className="mt-10 text-sm px-10 md:text-lg md:max-w-6xl text-center text-slate-800">
-          We will be your complete guide to your educational destination.
-          Through college admission, scholarships and visa application, we will deliver the results.
+        <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+          We will be your complete guide to your educational destination. From college admission to scholarships and visa applications, we provide the support and results you need.
         </p>
-        <div className="flex mt-10 justify-center">
+        <div className="flex justify-center">
           <video 
             src='./src/assets/nyflag.mp4'
             loop autoPlay muted
-            className="w-5/6 sm:w-3/4 border border-blue-700 shadow-blue-400 my-3">
+            className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 border-2 border-gray-300 shadow-lg rounded-lg"
+          >
             Your Browser does not support the video tag
           </video>
         </div>

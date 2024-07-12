@@ -83,18 +83,18 @@ export const features = [
     description:
       "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
   },
-  {
-    icon: <PlugZap />,
-    text: "Collaboration Tools",
-    description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-  },
-  {
-    icon: <GlobeLock />,
-    text: "Analytics Dashboard",
-    description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-  },
+  // {
+  //   icon: <PlugZap />,
+  //   text: "Collaboration Tools",
+  //   description:
+  //     "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+  // },
+  // {
+  //   icon: <GlobeLock />,
+  //   text: "Analytics Dashboard",
+  //   description:
+  //     "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+  // },
 ];
 
 export const checklistItems = [
