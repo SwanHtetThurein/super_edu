@@ -10,7 +10,7 @@
     --hero-bg: #fcfcf4;
     --services-bg: #feffff;
     --about-bg: #fafaf7;
-    --transition-duration: 0.5s;
+    --transition-duration: 0.8s;
 
 }
 
@@ -22,6 +22,7 @@ html {
   font-family: "Noto Sans Myanmar", sans-serif;
   color-scheme: light;
 }
+.
 
 section {
   transition: background-color 0.5s ease-in-out;

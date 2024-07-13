@@ -32,7 +32,7 @@ const HeroSection = () => {
           </defs>
         </svg>
       </div>
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen py-16 px-4 text-center">
+      <div className="px-4 pt-0 md:px-8 relative  flex flex-col items-center justify-center min-h-screen text-center">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-800 mb-4">
           College Applications for
           <span className="bg-gradient-to-r from-cyan-500 to-blue-600 text-transparent bg-clip-text">
@@ -53,7 +53,7 @@ const HeroSection = () => {
           ]}
           wrapper="h2"
           speed={30}
-          className="text-2xl sm:text-3xl lg:text-4xl text-gray-600 font-medium mb-8"
+          className="text-2xl sm:text-3xl lg:text-4xl text-gray-600 font-medium"
           repeat={Infinity}
         />
         
@@ -61,7 +61,7 @@ const HeroSection = () => {
           <video 
             src='./src/assets/nyflag.mp4'
             loop autoPlay muted
-            className="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 border-2 border-gray-300 shadow-lg rounded-lg"
+            className="mt-12 w-full sm:w-3/4 border-2 border-gray-300 rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
           >
             Your Browser does not support the video tag
           </video>
