@@ -3,65 +3,53 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="relative overflow-hidden">
-      <div className="absolute inset-0 z-[-1]">
-        <svg
-          width="1440"
-          height="886"
-          viewBox="0 0 1440 886"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            opacity="0.4"
-            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
-            fill="url(#paint0_linear)"
-          />
-          <defs>
-            <linearGradient
-              id="paint0_linear"
-              x1="1308.65"
-              y1="1142.58"
-              x2="602.827"
-              y2="-418.681"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#3056D3" stopOpacity="0.2" />
-              <stop offset="1" stopColor="#F5F2FD" stopOpacity="0" />
-            </linearGradient>
-          </defs>
-        </svg>
-      </div>
-      <div className="px-4 pt-0 md:px-8 relative  flex flex-col items-center justify-center min-h-screen text-center">
-        <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-800 mb-4">
-          College Applications for
-          <span className="bg-gradient-to-r from-cyan-500 to-blue-600 text-transparent bg-clip-text">
-            {" "}Underprivileged Students
-          </span>
-        </h1>
-        <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
-          Your complete education consultant to the United States
-          </p>
-        <TypeAnimation
-          sequence={[
-            "Get Scholarships",
-            1000,
-            "Obtain Visas",
-            1000,
-            "Get Admitted",
-            1000
-          ]}
-          wrapper="h2"
-          speed={30}
-          className="text-2xl sm:text-3xl lg:text-4xl text-gray-600 font-medium"
-          repeat={Infinity}
-        />
+    <div className="relative overflow-hidden bg-white dark:bg-gray-800">
+      <div className="relative flex flex-col lg:flex-row lg:pt-8 px-4 lg:px-24 min-h-screen text-center">
         
-        <div className="flex justify-center">
-          <video 
+        {/* Headline with flex */}
+        <div className="lg:w-2/5 lg:text-left lg:pr-8">
+          <TypeAnimation
+            sequence={[
+              "Win Scholarships",
+              1000,
+              "Obtain Visas",
+              1000,
+              "Get Admitted",
+              1000
+            ]}
+            wrapper="h2"
+            speed={35}
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-gray-800 dark:text-white mb-4"
+            repeat={Infinity}
+          />
+          <p className="sm:text-lg md:text-xl text-gray-300">
+            Through college admission, scholarships, and visa application,
+            <span className="bg-gradient-to-r from-cyan-500 to-blue-600 text-transparent bg-clip-text">
+              {" "} we deliver the results.
+            </span>
+          </p>
+        </div>
+
+        {/* Video with grid */}
+        <div className="lg:w-3/5 grid grid-cols-4 grid-rows-3 justify-center lg:justify-end lg:mt-0">
+          <video
             src='./src/assets/nyflag.mp4'
             loop autoPlay muted
-            className="mt-12 w-full sm:w-3/4 border-2 border-gray-300 rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
+            className="col-start-2 col-span-2 border-2 border-gray-800 rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
+          >
+            Your Browser does not support the video tag
+          </video>
+          <video
+            src='./src/assets/nybridge.mp4'
+            loop autoPlay muted
+            className="row-start-2 col-start-1 col-span-2 border-gray-300 rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
+          >
+            Your Browser does not support the video tag
+          </video>
+          <video
+            src='./src/assets/usflag.mp4'
+            loop autoPlay muted
+            className="row-start-3 grid-cols-subgrid col-start-3 col-span-3 border-2 border-gray-300 rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
           >
             Your Browser does not support the video tag
           </video>

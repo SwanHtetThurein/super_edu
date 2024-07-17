@@ -11,7 +11,6 @@ export default function App() {
       <NavBar />
       <HeroSection />
       <Services/>
-      <FAQ/>
       <About/>
       <Contact/>
     </div>

@@ -24,21 +24,24 @@ const NavBar = () => {
            
           </div>
 
-          <ul className="hidden md:flex ml-14 space-x-12 ">
+          <ul className="hidden md:flex ml-14 space-x-12  ">
             {navItems.map((item, index) => (
               <li key={index}>
                 <a
                   className="hover:underline relative font-medium text-gray-900 uppercase "
                   href={item.href}
                 >
+                  <button>
                   {item.label}
+                  </button>
+                  
                 </a>
               </li>
             ))}
           </ul>
 
           <div className="hidden md:flex justify-center space-x-12 items-center">
-            <a className="bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-3 hover:from-green-500 hover:to-blue-700 rounded-md transition-transform duration-500 transform hover:scale-105">
+            <a className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 py-2 px-3 hover:from-green-500 hover:to-blue-700 rounded-md transition-transform duration-500 transform hover:scale-105">
               Talk with us
             </a>
           </div>

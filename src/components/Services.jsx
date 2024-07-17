@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div id="services" className="py-4 relative lg:py-16 px-4 min-h-[600px]">
+    <div id="services" className="px-4 py-4 relative md:py-8 lg:py-12 min-h-[650px]">
       <div className="text-center mb-12">
         <span className="text-black-500 text-3xl sm:text-4xl lg:text-5xl font-medium uppercase">
           What
@@ -11,11 +11,14 @@ const Services = () => {
             {" "}We Do
           </span>
         </span>
+        <p className = "px-4 py-4 md:px-8 md:py-8 lg:px-16">
+        မိမိရဲ့ပညာရေးနောက်ခံနဲ့ ပန်းတိုင်ပေါ် မူတည်ပြီး အမေရိကန်တက္ကသိုလ်များသို့ ဝင်ခွင့်၊ စကော်လားရှစ်/ပညာသင်ထောက်ပံ့ကြေး( financial aid) မှစ၍ ဗီဇာပြင်ဆင်ပေးခြင်းအဆုံး ဝန်ဆောင်မှုပေးလျှက်ရှိပါတယ်
+        </p>
       </div>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-4">
         {features.map((feature, index) => (
-          <div key={index} className="w-full md:w-3/4 lg:w-1/3 px-2">
-            <div className="flex items-start bg-white shadow-lg rounded-lg p-6 mb-8 transition-transform duration-500 transform hover:scale-105">
+          <div key={index} className="w-full md:w-3/4 lg:w-2/5 px-2">
+            <div className="flex items-start bg-white shadow-lg rounded-lg p-6 mb-4 transition-transform duration-500 transform hover:scale-105">
               <div className="flex-shrink-0 h-8 w-10 md:h-12 md:w-12 p-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white flex justify-center items-center rounded-full">
                 {feature.icon}
               </div>

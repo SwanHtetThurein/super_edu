@@ -1,7 +1,7 @@
-import { BotMessageSquare } from "lucide-react";
-import { BatteryCharging } from "lucide-react";
-import { Fingerprint } from "lucide-react";
-import { ShieldHalf } from "lucide-react";
+import { GraduationCap } from "lucide-react";
+import { School } from "lucide-react";
+import { BookOpenCheck } from "lucide-react";
+import {  NotebookPen } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
 
@@ -60,28 +60,28 @@ export const testimonials = [
 
 export const features = [
   {
-    icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    icon: <GraduationCap />,
+    text: "IGCSE-O level ဖြေဆိုပြီး ကျောင်းသားများအတွက်",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "အမေရိကန်ပြည်ထောင်စုရှိ public, private university မရွေး မိမိနဲ့အသင့်တော်ဆုံးမေဂျာရွေးချယ်ခြင်း၊ အဆိုပါမေဂျာအတွက် ranking အကောင်းဆုံး တက္ကသိုလ်များနှင့်သက်ဆိုင်ရာ စကော်လားရှစ်များရှာဖွေလျှောက်ပေးခြင်း၊ ဝင်ခွင့်ရပြီးနောက် ဗီဇာပြင်ဆင်ပေးခြင်းနှင့် အမေရိကရောက်ရှိလျှင် အခြေကျရေးတို့ အကြံဉာဏ်ပေးပါတယ်",
   },
   {
-    icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    icon: < NotebookPen />,
+    text: "IGCSE/ GED/ Grade 12 တက်ဆဲ ကျောင်းသား/သူများ",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "Grade/ score မြင့်မားစေရန် အကြံညဏ်နှင့်တကွ လိုအပ်ပါက guide/tutor service များညွှန်းပေးခြင်း၊ အနာဂတ် ကျောင်း စကော်လာရှစ်လျှောက်လျှင် အမေရိကအရောက် part time ရှာဖွေလျှင် သူများထက်တစ်ပန်းသာစေမယ့် activities, extracurriculars များ အကြံပေးခြင်း၊ မှအစ အထက်ပါ ဝန်ဆောင်မှုအားလုံးရှိပါတယ် ",
   },
   {
-    icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    icon: <BookOpenCheck />,
+    text: "GED ဖြေဆိုပြီး ကျောင်းသား/သူများ",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "Community College မှအစ နှစ်သက်ရာ state/private university များတက်ရောက်နိုင်ရန်နှင့် scholarships များတတ်နိုင်သမျှရနိုင်ရန် မှအစ visa ပြင်ဆင်ပေးခြင်းအထိ အစအဆုံးတာဝန်ယူပါတယ် ",
   },
   {
-    icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    icon: <School />,
+    text: "ပညာရေးတပိုင်းတစ (သို့) community college သီးသန့်ကျောင်းသားများအတွက်",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "Community college နဲ့  visa application အတွက် စာရွက်စာတမ်းအပြည့်အစုံနှင့် visa interview အတွက် လေ့ကျင့်ပေးခြင်း၊ စသဖြင့် အမေရိကရောက် အခြေတကျဖြစ်စေရန်ပါ ဝန်ဆောင်မှုပေးပါတယ်",
   },
   // {
   //   icon: <PlugZap />,
