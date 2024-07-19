@@ -19,7 +19,7 @@ const About = () => {
                 Swan Htet Thurein
               </h2>
 
-              <ul className="text-lg leading-7 text-gray-600 dark:text-gray-300 list-disc">
+              <ul className="text-sm md:text-lg leading-7 text-gray-600 dark:text-gray-300 list-disc">
                 <li>
                 Former medical student, University of Medicine 1 - Yangon
                 </li>
@@ -38,9 +38,13 @@ const About = () => {
         </div>
       </section>
 
-      <p className="text-start px-4 py-4 md:px-6 lg:px-28  text-gray-900 dark:text-gray-300">
+      <hr className="mx-4 my-2 md:mx-40 border-gray-200 dark:border-gray-700" />
+
+      <p className="text-sm md:text-lg px-6 py-6 md:px-6 lg:px-40 text-gray-900 dark:text-gray-300">
               With our collective experience of having checked thousands of IELTS essays and college admission/scholarship essays/applications, we offer experienced and expert help to help reach your goals.
       </p>
+
+      <hr className="mx-4 my-2 md:mx-40 border-gray-200 dark:border-gray-700" />
 
       {/* Section 2 */}
       <section className="py-16 lg:py-24 relative">
@@ -55,12 +59,12 @@ const About = () => {
               <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 dark:text-white mb-6">
                 Aung Khant
               </h2>
-              <ul className="text-lg leading-7 text-gray-600 dark:text-gray-300 list-disc">
+              <ul className="text-sm md:text-lg leading-7 text-gray-600 dark:text-gray-300 list-disc">
                 <li>
                 Former medical student, University of Medicine 1 - Yangon
                 </li>
                 <li>
-                Former IGCSE Teacher at []
+                Former IGCSE Teacher at Warriors Int'l School
                 </li>
                 <li>
                 Former IELTS Trainer and Writing Coach at Tr.MOE
