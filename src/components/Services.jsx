@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div id="services" className="px-4 py-16 relative md:py-8 lg:py-20 min-h-[1000px]">
+    <section id="services" className="mt-16 bg-services px-4 pt-4 pb-12 relative md:py-8 lg:py-20 min-h-[1000px]">
       <div className="text-center mb-12">
         <span className="text-black-500 text-3xl sm:text-4xl lg:text-5xl font-medium uppercase">
           What
@@ -11,7 +11,7 @@ const Services = () => {
             {" "}We Do
           </span>
         </span>
-        <p className = "text-sm md:text-lg px-4 py-4 md:px-8 md:py-8 lg:px-16">
+        <p className = "leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-4 py-4 md:px-8 md:py-8 lg:px-16">
         မိမိရဲ့ပညာရေးနောက်ခံနဲ့ ပန်းတိုင်ပေါ် မူတည်ပြီး အမေရိကန်တက္ကသိုလ်များသို့ ဝင်ခွင့်၊ စကော်လားရှစ်/ပညာသင်ထောက်ပံ့ကြေး( financial aid) မှစ၍ ဗီဇာပြင်ဆင်ပေးခြင်းအဆုံး ဝန်ဆောင်မှုပေးလျှက်ရှိပါတယ်
         </p>
       </div>
@@ -23,14 +23,14 @@ const Services = () => {
                 {feature.icon}
               </div>
               <div className="ml-4">
-                <h5 className="text-l md:text-xl font-semibold mb-2 text-gray-800">{feature.text}</h5>
-                <p className="text-sm md:text-lg text-gray-600">{feature.description}</p>
+                <h5 className="text-l md:text-xl font-semibold mb-2 text-gray-700">{feature.text}</h5>
+                <p className="pt-4 md:pt-8 md:pb-4 leading-7 text-sm md:text-lg md:leading-loose text-gray-600 ">{feature.description}</p>
               </div>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

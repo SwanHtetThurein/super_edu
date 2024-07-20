@@ -6,9 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        'noto':['Noto Sans Myanmar', 'sans-serif']
-      },
       scrollBehavior: {
         smooth: 'smooth',
       }

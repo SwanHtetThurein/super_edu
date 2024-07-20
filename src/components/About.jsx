@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div className="bg-gray-50 dark:bg-gray-800">
+    <div className="bg-about dark:bg-gray-800">
       {/* Section 1 */}
       <section id="about" className="py-16 lg:py-24 relative">
         <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -15,11 +15,11 @@ const About = () => {
               />
             </div>
             <div className="flex flex-col">
-              <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 dark:text-white mb-6">
+              <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 mb-6">
                 Swan Htet Thurein
               </h2>
 
-              <ul className="text-sm md:text-lg leading-7 text-gray-600 dark:text-gray-300 list-disc">
+              <ul className="leading-8 px-6 text-sm md:text-lg md:leading-10 text-gray-600  list-disc">
                 <li>
                 Former medical student, University of Medicine 1 - Yangon
                 </li>
@@ -38,13 +38,13 @@ const About = () => {
         </div>
       </section>
 
-      <hr className="mx-4 my-2 md:mx-40 border-gray-200 dark:border-gray-700" />
+      <hr className="mx-4 my-2 md:mx-40 border-gray-400 dark:border-gray-700" />
 
-      <p className="text-sm md:text-lg px-6 py-6 md:px-6 lg:px-40 text-gray-900 dark:text-gray-300">
+      <p className="leading-6 text-sm md:text-lg md:leading-8 px-6 py-4 md:px-6 lg:pl-40 lg:pr-20 text-gray-600 ">
               With our collective experience of having checked thousands of IELTS essays and college admission/scholarship essays/applications, we offer experienced and expert help to help reach your goals.
       </p>
 
-      <hr className="mx-4 my-2 md:mx-40 border-gray-200 dark:border-gray-700" />
+      <hr className="mx-4 my-2 md:mx-40 border-gray-400 dark:border-gray-700" />
 
       {/* Section 2 */}
       <section className="py-16 lg:py-24 relative">
@@ -56,10 +56,10 @@ const About = () => {
                 alt="Aung Khant"
                 className="w-full max-w-md h-auto rounded-xl shadow-xl mb-8 lg:mb-0 transition-transform duration-500 transform hover:scale-105 lg:hidden"
               />
-              <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 dark:text-white mb-6">
+              <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900  mb-6">
                 Aung Khant
               </h2>
-              <ul className="text-sm md:text-lg leading-7 text-gray-600 dark:text-gray-300 list-disc">
+              <ul className="leading-8 md:leading-10 px-6 text-sm md:text-lg leading-7 text-gray-600 list-disc">
                 <li>
                 Former medical student, University of Medicine 1 - Yangon
                 </li>
