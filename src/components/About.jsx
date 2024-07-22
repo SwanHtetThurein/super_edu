@@ -41,7 +41,7 @@ const About = () => {
 
       <hr className="mx-4 my-2 md:mx-40 border-gray-400 dark:border-gray-700" />
 
-      <p className="leading-6 text-sm md:text-lg md:leading-8 px-6 py-4 md:px-6 lg:pl-40 lg:pr-20 text-gray-600 ">
+      <p className="flex justify-center leading-6 text-sm md:text-lg md:leading-8 px-6 py-4 md:px-6 lg:pl-40 lg:pr-20 text-gray-600 ">
               With our collective experience of having checked thousands of IELTS essays and college admission/scholarship essays/applications, we offer experienced and expert help to help reach your goals.
       </p>
 
