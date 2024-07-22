@@ -3,7 +3,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <section id="services" className="mt-16 bg-services px-4 pt-4 pb-12 relative md:py-8 lg:py-20 min-h-[1000px]">
+    <section id="services" className="mt-16 bg-services px-4 pt-4 pb-12 relative md:py-8 lg:py-18 min-h-[1000px]">
       <div className="text-center mb-12">
         <span className="text-black-500 text-3xl sm:text-4xl lg:text-5xl font-medium uppercase">
           What
@@ -12,7 +12,7 @@ const Services = () => {
           </span>
         </span>
         <p className = "leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-4 py-4 md:px-8 md:py-8 lg:px-16">
-        မိမိရဲ့ပညာရေးနောက်ခံနဲ့ ပန်းတိုင်ပေါ် မူတည်ပြီး အမေရိကန်တက္ကသိုလ်များသို့ ဝင်ခွင့်၊ စကော်လားရှစ်/ပညာသင်ထောက်ပံ့ကြေး( financial aid) မှစ၍ ဗီဇာပြင်ဆင်ပေးခြင်းအဆုံး ဝန်ဆောင်မှုပေးလျှက်ရှိပါတယ်
+        မိမိရဲ့ပညာရေးနောက်ခံနဲ့ ပန်းတိုင်ပေါ် မူတည်ပြီး အမေရိကန်ပြည်ထောင်စုရှိ public, private university များသို့ ဝင်ခွင့်၊ စကော်လားရှစ်/ပညာသင်ထောက်ပံ့ကြေး (financial aid) မှစ၍ ဗီဇာပြင်ဆင်ပေးခြင်းအဆုံး ဝန်ဆောင်မှုပေးလျှက်ရှိပါတယ်
         </p>
       </div>
       <div className="flex flex-wrap justify-center gap-y-4 md:gap-x-12  md:gap-y-12">

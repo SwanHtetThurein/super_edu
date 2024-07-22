@@ -1,4 +1,5 @@
-import React from 'react';
+import ak from '../assets/ak.jpeg'
+import swan from '../assets/swan.png'
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="flex justify-center lg:justify-start">
               <img
-                src="./src/assets/swan.jpg"
+                src={swan}
                 alt="About Us"
                 className="w-full max-w-md h-auto rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
               />
@@ -52,7 +53,7 @@ const About = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="flex flex-col">
               <img
-                src="./src/assets/ak.jpeg"
+                src={ak}
                 alt="Aung Khant"
                 className="w-full max-w-md h-auto rounded-xl shadow-xl mb-8 lg:mb-0 transition-transform duration-500 transform hover:scale-105 lg:hidden"
               />
@@ -64,7 +65,7 @@ const About = () => {
                 Former medical student, University of Medicine 1 - Yangon
                 </li>
                 <li>
-                Former IGCSE Teacher at Warriors Int'l School
+                Former IGCSE Teacher at Warriors Intl School
                 </li>
                 <li>
                 Former IELTS Trainer and Writing Coach at Tr.MOE
@@ -79,7 +80,7 @@ const About = () => {
             </div>
             <div className="flex justify-center lg:flex hidden">
               <img
-                src="./src/assets/ak.jpeg"
+                src={ak}
                 alt="Aung Khant"
                 className="w-full max-w-md h-auto rounded-xl shadow-xl transition-transform duration-500 transform hover:scale-105"
               />

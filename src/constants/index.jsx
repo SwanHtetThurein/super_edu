@@ -63,38 +63,27 @@ export const features = [
     icon: <GraduationCap />,
     text: "IGCSE-O level ဖြေဆိုပြီး ကျောင်းသားများအတွက်",
     description:
-      "အမေရိကန်ပြည်ထောင်စုရှိ public, private university မရွေး မိမိနဲ့အသင့်တော်ဆုံးမေဂျာရွေးချယ်ခြင်း၊ အဆိုပါမေဂျာအတွက် ranking အကောင်းဆုံး တက္ကသိုလ်များနှင့်သက်ဆိုင်ရာ စကော်လားရှစ်များရှာဖွေလျှောက်ပေးခြင်း၊ ဝင်ခွင့်ရပြီးနောက် ဗီဇာပြင်ဆင်ပေးခြင်းနှင့် အမေရိကရောက်ရှိလျှင် အခြေကျရေးတို့ အကြံဉာဏ်ပေးပါတယ်",
+      "မိမိနှစ်သက်ရာမေဂျာရွေးချယ်ခြင်း၊ အဆိုပါမေဂျာအတွက် မိမိနှင့်အသင့်တော်ဆုံးတက္ကသိုလ်များ နှင့် စကော်လားရှစ်များရှာဖွေလျှောက်ပေးခြင်း၊ ဝင်ခွင့်ရပြီးနောက် ဗီဇာပြင်ဆင်ပေးခြင်းနှင့် အမေရိကရောက်ရှိလျှင် အခြေကျရေးပြင်ဆင်ပေးခြင်း",
   },
   {
     icon: < NotebookPen />,
     text: "IGCSE/ GED/ Grade 12 တက်ဆဲ ကျောင်းသား/သူများ",
     description:
-      "Grade/ score မြင့်မားစေရန် အကြံညဏ်နှင့်တကွ လိုအပ်ပါက guide/tutor service များညွှန်းပေးခြင်း၊ အနာဂတ် ကျောင်း စကော်လာရှစ်လျှောက်လျှင် အမေရိကအရောက် part time ရှာဖွေလျှင် သူများထက်တစ်ပန်းသာစေမယ့် activities, extracurriculars များ အကြံပေးခြင်း၊ မှအစ အထက်ပါ ဝန်ဆောင်မှုအားလုံးရှိပါတယ် ",
+      "Grade/ score မြင့်မားစေရန် အကြံညဏ်နှင့်တကွ လိုအပ်ပါက guide/tutor service များညွှန်းပေးခြင်း၊ အနာဂတ် ကျောင်းစကော်လာရှစ်လျှောက်လျှင်၊ အမေရိကအရောက် part-time ရှာဖွေလျှင် သူများထက်တစ်ပန်းသာစေမည့် extracurriculars များ အကြံပေးခြင်း",
   },
   {
     icon: <BookOpenCheck />,
     text: "GED ဖြေဆိုပြီး ကျောင်းသား/သူများ",
     description:
-      "Community College မှအစ နှစ်သက်ရာ state/private university များတက်ရောက်နိုင်ရန်နှင့် scholarships များတတ်နိုင်သမျှရနိုင်ရန် မှအစ visa ပြင်ဆင်ပေးခြင်းအထိ အစအဆုံးတာဝန်ယူပါတယ် ",
+      "Community College မှအစ နှစ်သက်ရာ state/private university များတက်ရောက်နိုင်ရန်နှင့် scholarships များ တတ်နိုင်သမျှရနိုင်ရန် မှအစ visa interview အထိပြင်ဆင်ပေးခြင်း ",
   },
   {
     icon: <School />,
     text: "ပညာရေးတပိုင်းတစ (သို့) community college သီးသန့်ကျောင်းသားများအတွက်",
     description:
-      "Community college နဲ့  visa application အတွက် စာရွက်စာတမ်းအပြည့်အစုံနှင့် visa interview အတွက် လေ့ကျင့်ပေးခြင်း၊ စသဖြင့် အမေရိကရောက် အခြေတကျဖြစ်စေရန်ပါ ဝန်ဆောင်မှုပေးပါတယ်",
+      "Community college နဲ့  visa application အတွက် စာရွက်စာတမ်းအပြည့်အစုံနှင့် visa interview အတွက် လေ့ကျင့်ပေးခြင်း၊ အမေရိကရောက် အခြေတကျဖြစ်ရန် ပြင်ဆင်ပေးခြင်း",
   },
-  // {
-  //   icon: <PlugZap />,
-  //   text: "Collaboration Tools",
-  //   description:
-  //     "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
-  // },
-  // {
-  //   icon: <GlobeLock />,
-  //   text: "Analytics Dashboard",
-  //   description:
-  //     "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
-  // },
+
 ];
 
 export const checklistItems = [
