@@ -27,9 +27,9 @@ const Services = () => {
             {language === "en" ? "To Burmese 🇲🇲" : "To English 🇺🇸"}
           </button>
         </div>
-        <p className="leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-4 py-4 md:px-8 md:py-8 lg:px-16">
+        <p className="leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-4 py-4 md:px-24 md:py-8 ">
           {language === "en"
-            ? "Based on your educational background and goals, we provide personalized services that include admission to public and private universities in the USA, scholarships/financial aid applications, and visa preparation"
+            ? "Based on your educational background and goals, we provide personalized services that include admission to public and private universities in the USA, scholarships/financial aid applications, and visa preparation."
             : "မိမိရဲ့ပညာရေးနောက်ခံနဲ့ ပန်းတိုင်ပေါ် မူတည်ပြီး အမေရိကန်ပြည်ထောင်စုရှိ public, private university များသို့ ဝင်ခွင့်၊ စကော်လားရှစ်/ပညာသင်ထောက်ပံ့ကြေး (financial aid) မှစ ဗီဇာပြင်ဆင်ပေးခြင်းအဆုံး ဝန်ဆောင်မှုပေးလျှက်ရှိပါတယ်"}
         </p>
       </div>

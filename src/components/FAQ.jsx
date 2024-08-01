@@ -100,12 +100,12 @@ const FAQ = () => {
               </span>
         </span>
 
-        <p className="leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-12 py-4 md:px-40 lg:px-80">
+        <p className="leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-12 py-4 md:px-40">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         We started SuperEdu because we saw how expensive and inaccessible college applications can be if you&#39;re from Myanmar. Many of our friends didn&#39;t get into the schools they deserved simply because they couldn&#39;t afford the help they needed. We don’t want that to happen to anyone else. 
         </p>
 
-        <p className="leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-12 md:px-40 lg:px-80">
+        <p className="leading-7 text-gray-600 text-sm md:text-lg md:leading-loose px-12 md:px-40">
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         Our mission is to make college applications more accessible and affordable for everyone in Myanmar. As international students ourselves, we&#39;re here to offer support and guidance without the high costs, helping you get into the school you rightfully deserve.
         </p>
