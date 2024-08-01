@@ -1,13 +1,24 @@
 import { Facebook, Linkedin } from 'lucide-react';
+import logo from "../assets/logo.png";
 
 const Contact = () => {
   return (
     <footer id="contact" className="bg-white border-t border-gray-200">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div className="flex flex-col items-center md:flex-row md:justify-center space-y-8 md:space-y-0 md:space-x-8">
-          
-          <div className="flex flex-col items-center sm:mt-4 sm:space-y-4 md:w-1/3">
-            <h2 className="text-lg font-semibold text-gray-900 mb-2">
+      <div className="mx-auto w-full max-w-screen-xl p-4 py-8 lg:py-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div className="flex items-center justify-center">
+            <a href="#" className="flex items-center flex-shrink-0 text-center md:text-left">
+              {/* TODO Change logo to svg */}
+              <img className="h-10 w-15 mr-2" src={logo} alt="logo" /> 
+              <span className="text-lg font-semibold tracking-tight">
+                Super Education<br/> Consulting
+              </span>
+            </a>
+          </div>
+
+          <div className="flex flex-col items-center md:mt-6 md:items-center text-center">
+            <h2 className="text-lg font-[500] text-gray-900 mb-2">
               Want to know more? 
             </h2>
             <a
@@ -18,11 +29,11 @@ const Contact = () => {
             </a>
           </div> 
 
-          <div className="flex flex-col items-center md:w-1/3">
+          <div className="flex flex-col items-center text-center">
             <div className="flex flex-col items-center space-y-8">
               <div className="flex flex-col items-center">
                 <p className="text-sm font-semibold text-gray-600 mb-2">Swan</p>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center justify-center space-x-4">
                   <a 
                     href="https://www.facebook.com/swanhtet.threin" 
                     className="link--popup-text" 
@@ -41,7 +52,7 @@ const Contact = () => {
               </div>
               <div className="flex flex-col items-center">
                 <p className="text-sm font-semibold text-gray-600 mb-2">AK</p>
-                <div className="flex items-center space-x-4">
+                <div className="flex items-center justify-center space-x-4">
                   <a 
                     href="https://www.facebook.com/profile.php?id=100038362681276" 
                     className="link--popup-text" 
@@ -60,13 +71,14 @@ const Contact = () => {
               </div>
             </div>
           </div>
+
         </div>
-    
+
         <hr className="mt-12 my-6 border-gray-200" />
     
         <div className="text-center">
           <span className="text-sm text-gray-500">
-            Developed by {' '}
+            Developed by{' '}
             <a 
               href="https://www.linkedin.com/in/swan-thurein-7058b1191" 
               className="link--popup-text"

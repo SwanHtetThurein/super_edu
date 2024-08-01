@@ -26,14 +26,14 @@ const HeroTest = () => {
               y2="-418.681"
               gradientUnits="userSpaceOnUse"
             >
-              <stop stopColor="#83fffb" stopOpacity="0.36" />
+              <stop stopColor="#4eb3b3" stopOpacity="0.36" />
               <stop offset="1" stopColor="#F5F2FD" stopOpacity="0" />
               <stop offset="1" stopColor="#F5F2FD" stopOpacity="0.096144" />
             </linearGradient>
           </defs>
         </svg>
       </div>
-            <div className="absolute inset-y-0 right-0 transform md:translate-x-[-30px] lg:translate-x-[-40px] xl:translate-x-[-50px]">
+            <div className=" absolute inset-y-0 right-0 transform md:translate-x-[-30px] lg:translate-x-[-40px] xl:translate-x-[-50px]">
                 <img className="object-contain w-full h-full max-w-4xl origin-left opacity-50 xl:opacity-100 lg:scale-110  transition-transform duration-500 transform hover:scale-110" src={collage} alt="" />
             </div> 
 
@@ -56,13 +56,13 @@ const HeroTest = () => {
                                 repeat={Infinity}
                             />
                         </div>
-                        <p className="mt-12 font-sans text-lg font-normal leading-7 md:max-w-md lg:max-w-lg xl:max-w-xl text-gray-800 text-center">
+                        <p className="sm:bg-white-500/10 sm:backdrop-blur-[2px] sm:rounded-xl sm:p-3 lg:bg-transparent mt-12 text-lg font-normal leading-7 md:max-w-md lg:max-w-lg xl:max-w-xl text-gray-800 text-center">
                             Through college admission, scholarships, and visa application, we deliver the results.
                         </p>
 
                         <div className="flex items-center justify-center mt-8 space-x-3 md:justify-center sm:space-x-4">
                             <a
-                                href="https://t.me/swanthurein"
+                                href="#services"
                                 title=""
                                 className="
                                 transition-transform duration-500 transform hover:scale-110
@@ -75,8 +75,6 @@ const HeroTest = () => {
                                     font-sans
                                     text-base
                                     font-semibold
-                                    transition-all
-                                    duration-200
                                     border-2 border-transparent
                                     rounded-full
                                     sm:leading-8
@@ -86,7 +84,7 @@ const HeroTest = () => {
                                 "
                                 role="button"
                             >
-                                Talk with us
+                                Learn More 
                             </a>
                         </div>
                     </div>

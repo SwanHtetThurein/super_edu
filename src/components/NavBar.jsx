@@ -40,7 +40,8 @@ const NavBar = () => {
         <div className="flex justify-between items-center">
           <div className="flex items-center flex-shrink-0">
             <a href="#">
-              <img className="h-10 w-10 mr-2" src={logo} alt="logo" />
+              {/* TODO Change logo to svg */}
+              <img className="h-10 w-15 mr-2" src={logo} alt="logo" /> 
               {/* <span className="text-xl tracking-tight">Super Education</span> */}
             </a>
           </div>

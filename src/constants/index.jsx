@@ -57,33 +57,84 @@ export const testimonials = [
     text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
   },
 ];
+export const featuresEn = [
+  {
+    icon: <GraduationCap />,
+    text: "For students after IGCSE-O/A levels",
+    description: [
+      "Identify the most suitable universities and scholarships for your desired major and budget",
+      "Assist with writing Common App and Coalition essays, and personal statements",
+      "Provide guidance for visa preparation following admission",
+      "Offer full support to help you settle in the United States"
+    ],
+  },
+  
+  {
+    icon: <BookOpenCheck />,
+    text: "For students who after GED",
+    description: [
 
-export const features = [
+      "Identify and apply to the most suitable colleges for your score and budget",
+      "Assist in transferring to your desired state or private university",
+      "Maximize your chances of securing scholarships",
+      "Prepare you thoroughly for the visa interview"
+    ],
+  },
+  {
+    icon: <NotebookPen />,
+    text: "For students currently in IGCSE/GED/Grade 12",
+    description: [
+      "Provide tutoring to improve grades/scores",
+      "Recommend guide/tutor services if needed",
+      "Get you started with extracurriculars that will make you stand out for scholarships and part-time jobs in America"
+    ],
+  },
+  {
+    icon: <School />,
+    text: "For age 25+ or partial education students",
+    description: [
+      "Provide comprehensive application support for community college/university and visa application",
+      "Prepare you for a successful visa interview",
+      "Assist with your transition and settlement in the United States"
+    ],
+  },
+];
+
+export const featuresMy = [
   {
     icon: <GraduationCap />,
     text: "IGCSE-O level ဖြေဆိုပြီး ကျောင်းသားများအတွက်",
-    description:
-      "မိမိနှစ်သက်ရာမေဂျာရွေးချယ်ခြင်း၊ အဆိုပါမေဂျာအတွက် မိမိနှင့်အသင့်တော်ဆုံးတက္ကသိုလ်များ နှင့် စကော်လားရှစ်များရှာဖွေလျှောက်ပေးခြင်း၊ ဝင်ခွင့်ရပြီးနောက် ဗီဇာပြင်ဆင်ပေးခြင်းနှင့် အမေရိကရောက်ရှိလျှင် အခြေကျရေးပြင်ဆင်ပေးခြင်း",
+    description: [
+      "မိမိနှစ်သက်ရာမေဂျာရွေးချယ်ခြင်း",
+      "အဆိုပါမေဂျာအတွက် မိမိနှင့်အသင့်တော်ဆုံးတက္ကသိုလ်များနှင့်စကော်လားရှစ်များရှာဖွေလျှောက်ပေးခြင်း",
+      "ဝင်ခွင့်ရပြီးနောက် ဗီဇာပြင်ဆင်ပေးခြင်း",
+      "အမေရိကရောက်ရှိလျှင် အခြေကျရေးပြင်ဆင်ပေးခြင်း"
+    ],
   },
   {
-    icon: < NotebookPen />,
+    icon: <NotebookPen />,
     text: "IGCSE/ GED/ Grade 12 တက်ဆဲ ကျောင်းသား/သူများ",
-    description:
-      "Grade/ score မြင့်မားစေရန် အကြံညဏ်နှင့်တကွ လိုအပ်ပါက guide/tutor service များညွှန်းပေးခြင်း၊ အနာဂတ် ကျောင်းစကော်လာရှစ်လျှောက်လျှင်၊ အမေရိကအရောက် part-time ရှာဖွေလျှင် သူများထက်တစ်ပန်းသာစေမည့် extracurriculars များ အကြံပေးခြင်း",
+    description: [
+      "Grade/score မြင့်မားစေရန် အကြံညဏ်နှင့်တကွ လိုအပ်ပါက guide/tutor service များညွှန်းပေးခြင်း",
+      "အနာဂတ် ကျောင်းစကော်လာရှစ်လျှောက်လျှင်၊ အမေရိကအရောက် part-time ရှာဖွေလျှင် သူများထက်တစ်ပန်းသာစေမည့် extracurriculars များအကြံပေးခြင်း"
+    ],
   },
   {
     icon: <BookOpenCheck />,
     text: "GED ဖြေဆိုပြီး ကျောင်းသား/သူများ",
-    description:
-      "Community College မှအစ နှစ်သက်ရာ state/private university များတက်ရောက်နိုင်ရန်နှင့် scholarships များ တတ်နိုင်သမျှရနိုင်ရန် မှအစ visa interview အထိပြင်ဆင်ပေးခြင်း ",
+    description: [
+      "Community College မှအစ နှစ်သက်ရာ state/private university များတက်ရောက်နိုင်ရန်၊ scholarships များ တတ်နိုင်သမျှရနိုင်ရန်နှင့် visa interview အထိပြင်ဆင်ပေးခြင်း"
+    ],
   },
   {
     icon: <School />,
     text: "ပညာရေးတပိုင်းတစ (သို့) community college သီးသန့်ကျောင်းသားများအတွက်",
-    description:
-      "Community college နဲ့  visa application အတွက် စာရွက်စာတမ်းအပြည့်အစုံနှင့် visa interview အတွက် လေ့ကျင့်ပေးခြင်း၊ အမေရိကရောက် အခြေတကျဖြစ်ရန် ပြင်ဆင်ပေးခြင်း",
+    description: [
+      "Community college နဲ့ visa application အတွက် စာရွက်စာတမ်းအပြည့်အစုံပြင်ဆင်ပေးခြင်း",
+      "visa interview အတွက် လေ့ကျင့်ပေးခြင်း",
+      "အမေရိကရောက် အခြေတကျဖြစ်ရန် ပြင်ဆင်ပေးခြင်း"
+    ],
   },
-
 ];
 
 export const checklistItems = [
