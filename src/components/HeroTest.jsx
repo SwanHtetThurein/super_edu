@@ -56,7 +56,7 @@ const HeroTest = () => {
                                 repeat={Infinity}
                             />
                         </div>
-                        <p className="sm:bg-white-500/10 sm:backdrop-blur-[2px] sm:rounded-xl sm:p-3 lg:bg-transparent mt-12 text-lg font-normal leading-7 md:max-w-md lg:max-w-lg xl:max-w-xl text-gray-800 text-center">
+                        <p className="bg-white-500/10 sm:backdrop-blur-[2px] sm:rounded-xl sm:p-3 lg:bg-transparent mt-12 text-lg font-normal leading-7 md:max-w-md lg:max-w-lg xl:max-w-xl text-gray-800 text-center">
                             Through college admission, scholarships, and visa application, we deliver the results.
                         </p>
 
