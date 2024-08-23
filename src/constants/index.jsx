@@ -62,8 +62,8 @@ export const featuresEn = [
     icon: <GraduationCap />,
     text: "For students after IGCSE-O/A levels",
     description: [
-      "Identify the most suitable universities and scholarships for your desired major and budget",
-      "Assist with writing Common App and Coalition essays, and personal statements",
+      "Find the best colleges and scholarships for your major and budget",
+      "Write Common App and Coalition essays, and personal statements",
       "Provide guidance for visa preparation following admission",
       "Offer full support to help you settle in the United States"
     ],
